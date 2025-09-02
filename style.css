@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.footer{
+    height: 50px;
+    color: #fff;
+    background-color: #1F2937;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+
+.header-links ul{
+    display: flex;
+    gap: 18px;
+}
+
+.header-logo {
+    color: #E5E7EB;
+}
+
+
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
