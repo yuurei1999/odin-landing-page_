@@ -8,7 +8,7 @@ body{
 }
 
 .footer{
-    height: 50px;
+    height: 70px;
     color: #fff;
     background-color: #1F2937;
 
@@ -32,6 +32,30 @@ body{
 }
 
 
+.section-quote{
+    background-color: #E5E7EB;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-quote-content{
+    width: 900px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+.section-quote-content cite{
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+}
+
+.section-quote-content blockquote{
+    margin: 0;
+}
+
 
 a {
     font-size: 18px;
@@ -43,4 +67,9 @@ ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
 }
