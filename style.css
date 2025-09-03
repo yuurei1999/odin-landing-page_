@@ -32,6 +32,7 @@ body{
 }
 
 
+/* CSS FOR QUOTE SECTION BEGIN */
 .section-quote{
     background-color: #E5E7EB;
     display: flex;
@@ -39,7 +40,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .section-quote-content{
     width: 900px;
     color: #1F2937;
@@ -49,12 +49,52 @@ body{
 .section-quote-content cite{
     display: flex;
     justify-content: end;
+    font-size: 28px;
     font-weight: bold;
 }
-
 .section-quote-content blockquote{
     margin: 0;
 }
+/* CSS FOR QUOTE SECTION END */
+
+
+/* CSS FOR SIGN UP SECTION BEGIN */
+.section-sign-up {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-sign-up-container{
+    background-color: #3882F6;
+    width: 1200px;
+    height: 150px;
+    display: flex;
+
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.p-bold {
+    font-size: 24px;
+    font-weight: 900;
+}
+.button-class{
+    font-size: 20px;
+    background-color: #3882F6;
+    color: white;
+    width: 120px;
+    height: 40px;
+
+    border: 2px white solid;
+    padding: 4px 0;
+    border-radius: 5px;
+}
+/* CSS FOR SIGN UP SECTION END */
 
 
 a {
@@ -62,6 +102,8 @@ a {
     color: #E5E7EB;
     text-decoration: none;
 }
+
+
 
 ul {
     margin: 0;
