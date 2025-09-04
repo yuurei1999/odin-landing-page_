@@ -58,6 +58,34 @@ body{
 /* CSS FOR QUOTE SECTION END */
 
 
+
+.header-container{
+    font-size: 36px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+.section-content{
+    height: 400px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.element-container{    
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.element{
+    max-width: 150px;
+    text-align: center;
+}
+
+
+
 /* CSS FOR SIGN UP SECTION BEGIN */
 .section-sign-up {
     height: 300px;
@@ -114,4 +142,9 @@ ul {
 p{
     margin: 0;
     padding: 0;
+}
+
+img {
+    width: 150px;
+    height: 150px;
 }
