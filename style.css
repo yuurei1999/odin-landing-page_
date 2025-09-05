@@ -3,9 +3,76 @@ body{
     padding: 0;
     box-sizing: border-box;
 
+    font-family: "roboto";
+
     display: flex;
     flex-direction: column;
 }
+
+
+/* HEADER SECTION BEGINS */
+
+.header-website{
+    height: 500px;
+    background-color: #1F2937;
+    color: #fff;
+}
+
+.header-content-right img{
+    width: 450px;
+    height: 210px;
+}
+
+.header-content-left{
+    width: 370px;
+}
+
+.header-title-links{
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    margin-top: 24px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 40px;
+}
+
+.header-button {
+    background-color: #3882F6;
+    color: #fff;
+    width: 120px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px black solid;
+
+    margin-top: 10px;
+}
+
+.super-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: 900;
+}
+
+ul{
+    display: flex;
+    gap: 24px;
+}
+
+/*HEADER SECTION ENDS */
+
+
 
 .footer{
     height: 70px;
@@ -17,19 +84,6 @@ body{
     align-items: center;
 }
 
-.header {
-    background-color: #1F2937;
-}
-
-
-.header-links ul{
-    display: flex;
-    gap: 18px;
-}
-
-.header-logo {
-    color: #E5E7EB;
-}
 
 
 /* CSS FOR QUOTE SECTION BEGIN */
@@ -59,6 +113,7 @@ body{
 
 
 
+/*CSS FOR SOME RANDOM SECTION BEGINS */
 .header-container{
     font-size: 36px;
     font-weight: 900;
@@ -72,17 +127,17 @@ body{
     align-items: center;
     justify-content: center;
 }
-
 .element-container{    
     display: flex;
     justify-content: center;
     gap: 60px;
 }
-
 .element{
     max-width: 150px;
     text-align: center;
 }
+/*CSS FOR SOME RANDOM SECTION ENDS */
+
 
 
 
